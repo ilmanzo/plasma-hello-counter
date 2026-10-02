@@ -1,0 +1,18 @@
+# SPDX-FileCopyrightText: 2026 Andrea Manzini <ilmanzo@gmail.com>
+# SPDX-License-Identifier: GPL-2.0-or-later
+
+version = 1
+SPDX-PackageName = "plasma-hello-counter"
+SPDX-PackageSupplier = "Andrea Manzini <ilmanzo@gmail.com>"
+SPDX-PackageDownloadLocation = "https://github.com/ilmanzo/plasma-hello-counter"
+
+# Files that cannot carry a comment header
+[[annotations]]
+path = [
+    ".gitignore",
+    "README.md",
+    "package/metadata.json",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Andrea Manzini <ilmanzo@gmail.com>"
+SPDX-License-Identifier = "GPL-2.0-or-later"

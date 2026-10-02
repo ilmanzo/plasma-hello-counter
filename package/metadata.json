@@ -1,0 +1,18 @@
+{
+    "KPlugin": {
+        "Id": "org.opensuse.hellocounter",
+        "Name": "Hello counter",
+        "Description": "Counts how many times you click a button",
+        "Icon": "accessories-calculator",
+        "Authors": [
+            {
+                "Name": "Andrea Manzini"
+            }
+        ],
+        "Category": "Utilities",
+        "License": "GPL-2.0-or-later",
+        "Version": "0.1.0"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
